@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        for (int i = 0; i < 21; i++) {
+        for (int i = 0; i < 31; i++) {
             mList.add("第" + i + "行");
         }
 
